@@ -37,11 +37,11 @@ Version 1.0
 
 Bloom is an innovative web application designed to harness social media data for the early identification of mental health issues. Built on the robust MERN stack, Bloom collects real-time data from platforms like Twitter and Facebook, processing vast amounts of unstructured text using advanced natural language processing and machine learning techniques. By analyzing patterns in language and sentiment, the system is able to detect subtle indicators of conditions such as depression and anxiety, and promptly generate alerts for further review by mental health professionals and researchers. This proactive approach not only supports early intervention strategies but also empowers stakeholders with comprehensive, interactive visualizations and detailed reports—making Bloom a vital tool in the modern landscape of mental health care.
 
-1. ## **Document Purpose**
+   1. ## **Document Purpose**
 
 This document defines the requirements for the “Bloom”. The goal is to develop a web-based application that leverages data mining and machine learning techniques to analyze social media data, extracting early indicators of mental health issues (e.g., depression, anxiety). The system is intended to support mental health researchers, clinicians, and concerned users by providing actionable insights and alerts.
 
-2. ## **Product Scope**
+   2. ## **Product Scope**
 
 Bloom is designed as a full-stack web application using the MERN stack (MongoDB, Express.js, React, and Node.js). It will:
 
@@ -51,19 +51,19 @@ Bloom is designed as a full-stack web application using the MERN stack (MongoDB,
 * **User Dashboard:** Present analytical results via interactive visualizations, reports, and real-time alerts.
 * **User Management:** Support secure user authentication and role-based access for administrators, researchers, and end users.
 
-3. ## **Intended Audience**
+   3. ## **Intended Audience**
 
 \-	Course Instructor\-	Teaching Assistant\-	Software Development Team
 
-4. ## **Definitions, Acronyms and Abbreviations**
+   4. ## **Definitions, Acronyms and Abbreviations**
 
 **MERN Stack:** A JavaScript-based framework including MongoDB, Express.js, React, and Node.js.**NLP:** Natural Language Processing.**UI/UX:** User Interface/User Experience.**API:** Application Programming Interface.**Data Mining:** The process of discovering patterns in large datasets.
 
-5. ## **Document Conventions**
+   5. ## **Document Conventions**
 
 This document follows IEEE formatting standards. Naming conventions are used for uniformity, and technical terms are defined in Section 1.4.
 
-6. ## **Reference and Acknowledgements**
+   6. ## **Reference and Acknowledgements**
 
 **Basic Software Development Toolkit Documentations**
 
@@ -83,7 +83,7 @@ This document follows IEEE formatting standards. Naming conventions are used for
 
 Bloom is a standalone web application that integrates with external social media platforms. It will serve as a data aggregation and analysis tool that supports decision-making by mental health professionals and researchers. The system will run on cloud infrastructure and communicate with third-party social media APIs for data collection.
 
-2. # **Product Functionality**
+   2. ## **Product Functionality**
 
 **Data Collection Module:**
 
@@ -114,7 +114,7 @@ Bloom is a standalone web application that integrates with external social media
 * Implements registration, login, and role-based access control.
 * Maintains secure storage of user data in MongoDB.
 
-  3. # **Design and Implementation Constraints**
+  3. ## **Design and Implementation Constraints**
 
 **Data Privacy & Compliance:** Must adhere to GDPR, HIPAA (if applicable), and other data protection regulations.
 
@@ -122,7 +122,7 @@ Bloom is a standalone web application that integrates with external social media
 
 **Real-Time Processing:** Balancing real-time data ingestion with analysis performance may require careful optimization.
 
-4. # **Assumptions and Dependencies**
+   4. ## **Assumptions and Dependencies**
 
 * Reliable access to social media data and third-party APIs.
 * Sufficient computational resources for processing and analysis.
@@ -130,51 +130,51 @@ Bloom is a standalone web application that integrates with external social media
 
 3. # **SPECIFIC REQUIREMENTS**
 
-   1. # **External Interface Requirements**
+   1. ## **External Interface Requirements**
 
-      1. ## **User Interface**
+      1. ### **User Interface**
 
 **UI-1:** The front-end shall be developed using React, providing a responsive design.**UI-2:** Navigation elements, data visualization panels, and alert notifications shall follow standard UI/UX best practices.**UI-3:** Users shall have a clear login, registration, and dashboard interface.
 
-2. ## **Hardware Interface**
+      2. ## **Hardware Interface**
 
 **HI-1:** The system will be hosted on cloud servers (e.g., AWS, Azure) with scalable virtual machines.**HI-2:** The application is designed to run on modern web browsers (Chrome, Firefox, Safari, Edge) and devices (desktop, tablet, mobile).
 
-3. ## **Software Interface**
+      3. ## **Software Interface**
 
 **SI-1:** RESTful APIs shall be provided to support communication between the front-end and back-end.**SI-2:** The system will integrate with external social media APIs (Twitter, Facebook) for data collection.**SI-3:** Third-party libraries for NLP (e.g., Natural, TensorFlow.js) shall be integrated into the Node.js environment.
 
-2. # **Functional Requirement**
+   2. # **Functional Requirement**
 
-   1. ## **Data Collection & Integration**
+      1. ## **Data Collection & Integration**
 
 **FR-1:** The system shall connect to multiple social media APIs to retrieve user posts in real time.**FR-2:** The system shall schedule batch data ingestion for historical analysis.
 
-2. ## **Data Processing**
+      2. ## **Data Processing**
 
 **FR-3:** The system shall clean raw text data by removing noise, stop words, and duplicates.**FR-4:** The system shall perform tokenization, stemming, and normalization using NLP libraries.
 
-3. ## **Data Mining and Analysis**
+      3. ## **Data Mining and Analysis**
 
 **FR-5:** The system shall apply sentiment analysis to evaluate the emotional tone of social media posts.**FR-6:** The system shall use machine learning models (e.g., logistic regression, clustering) to detect patterns indicative of mental health issues.**FR-7:** The system shall update its analysis models periodically with new data.
 
-4. ## **Alert Generation**
+      4. ## **Alert Generation**
 
 **FR-8:** The system shall generate alerts when potential indicators (e.g., high negative sentiment, unusual activity patterns) are detected.**FR-9:** Alerts shall be customizable based on threshold parameters defined by administ
 
-5. ## **Dashboard and Visualization**
+      5. ## **Dashboard and Visualization**
 
 **FR-10:** The system shall present a responsive web-based dashboard built with React.**FR-11:** The dashboard shall display interactive charts, graphs, and reports summarizing the analysis.**FR-12:** Users shall be able to export reports in standard formats (PDF, CSV).
 
-6. ## **User Authentication and Authorization**
+      6. ## **User Authentication and Authorization**
 
 **FR-13:** The system shall provide secure user registration and login.**FR-14:** Role-based access control shall be implemented to differentiate between administrators, researchers, and general users.**FR-15:** The system shall use JWT or a similar mechanism for session management.
 
-7. ## **Reporting and Data Extraction**
+      7. ## **Reporting and Data Extraction**
 
 **FR-16:** Users shall be able to generate and download detailed analytical reports.**FR-17:** The system shall log user interactions for audit and research purposes.
 
-3. # **Use Case Model**
+   3. # **Use Case Model**
 
 ![][image1]
 
