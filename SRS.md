@@ -37,11 +37,11 @@ Version 1.0
 
 Bloom is an innovative web application designed to harness social media data for the early identification of mental health issues. Built on the robust MERN stack, Bloom collects real-time data from platforms like Twitter and Facebook, processing vast amounts of unstructured text using advanced natural language processing and machine learning techniques. By analyzing patterns in language and sentiment, the system is able to detect subtle indicators of conditions such as depression and anxiety, and promptly generate alerts for further review by mental health professionals and researchers. This proactive approach not only supports early intervention strategies but also empowers stakeholders with comprehensive, interactive visualizations and detailed reports—making Bloom a vital tool in the modern landscape of mental health care.
 
-1. # **Document Purpose**
+1. ## **Document Purpose**
 
 This document defines the requirements for the “Bloom”. The goal is to develop a web-based application that leverages data mining and machine learning techniques to analyze social media data, extracting early indicators of mental health issues (e.g., depression, anxiety). The system is intended to support mental health researchers, clinicians, and concerned users by providing actionable insights and alerts.
 
-2. # **Product Scope**
+2. ## **Product Scope**
 
 Bloom is designed as a full-stack web application using the MERN stack (MongoDB, Express.js, React, and Node.js). It will:
 
@@ -51,19 +51,19 @@ Bloom is designed as a full-stack web application using the MERN stack (MongoDB,
 * **User Dashboard:** Present analytical results via interactive visualizations, reports, and real-time alerts.
 * **User Management:** Support secure user authentication and role-based access for administrators, researchers, and end users.
 
-  3. # **Intended Audience**
+3. ## **Intended Audience**
 
 \-	Course Instructor\-	Teaching Assistant\-	Software Development Team
 
-4. # **Definitions, Acronyms and Abbreviations**
+4. ## **Definitions, Acronyms and Abbreviations**
 
 **MERN Stack:** A JavaScript-based framework including MongoDB, Express.js, React, and Node.js.**NLP:** Natural Language Processing.**UI/UX:** User Interface/User Experience.**API:** Application Programming Interface.**Data Mining:** The process of discovering patterns in large datasets.
 
-5. # **Document Conventions**
+5. ## **Document Conventions**
 
 This document follows IEEE formatting standards. Naming conventions are used for uniformity, and technical terms are defined in Section 1.4.
 
-6. # **Reference and Acknowledgements**
+6. ## **Reference and Acknowledgements**
 
 **Basic Software Development Toolkit Documentations**
 
